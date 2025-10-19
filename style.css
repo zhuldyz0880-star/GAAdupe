@@ -16,6 +16,14 @@ body {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* optional: adds a shadow */
 }
 
+.mXdiv {
+  width: 100%;
+  max-width: 100%; /* or whatever fits your layout */
+  margin: 0 auto;    /* centers the container */
+  padding: 20px;
+}
+
+
 /* NAVBAR */
 .navbar {
   display: flex;

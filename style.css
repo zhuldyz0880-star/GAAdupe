@@ -9,7 +9,7 @@ body {
 
 /* Normal image with curved edges */
 .rounded-img {
-  width: 1000px;           /* adjust as needed */
+  width: 100%;           /* adjust as needed */
   height: auto;           /* keeps proportions */
   border-radius: 15px 15px 15px 15px;    /* curves the corners */
   object-fit: cover;      /* crops nicely if resized */

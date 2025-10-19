@@ -11,7 +11,7 @@ body {
 .rounded-img {
   width: 200px;           /* adjust as needed */
   height: auto;           /* keeps proportions */
-  border-radius: 15px;    /* curves the corners */
+  border-radius: 15px 15px 15px 15px;    /* curves the corners */
   object-fit: cover;      /* crops nicely if resized */
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* optional: adds a shadow */
 }
@@ -70,10 +70,10 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white;
-  font-size: 24px;
+ color: white;
+  font-size: 24p x;
   text-align: center;
   padding: 0 20px;
-  border-radius: 0 0 20px 20px;
+  border-radius: 20px 20px 20px 20px;
   margin-top: 70px; /* adds space below navbar */
 }
